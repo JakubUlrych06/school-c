@@ -647,7 +647,7 @@ if (blocked2 == 0)
         else
          {
            printf("\nPlayer 1\n");
-            printf("Has lower card value than dealer that means 'player 1' has lose thier bet\n");
+            printf("Has lower card value than dealer that means 'player 1' has lost their bet\n");
            printf("Your current credits: %i\n", credits);
          }
         }
@@ -671,7 +671,7 @@ if (blocked2 == 0)
     else
     {
         printf("\nPlayer 1\n");
-        printf("Has busted that means 'player 1' has losed thier bet\n");
+        printf("Has busted that means 'player 1' has lost their bet\n");
         printf("Your current credits: %i\n", credits);
     }
       bet = 0;
@@ -696,7 +696,7 @@ if (blocked2 == 0)
               else
               {
               printf("\nPlayer 2\n");
-              printf("Has lower card value than dealer that means 'player 2' has lose thier bet\n");
+              printf("Has lower card value than dealer that means 'player 2' has lost their bet\n");
               printf("Your current credits: %i\n", credits2);
               }
             }
@@ -721,7 +721,7 @@ if (blocked2 == 0)
       else
       {
         printf("\nPlayer 2\n");
-        printf("Has busted that means 'player 2' has losed thier bet\n");
+        printf("Has busted that means 'player 2' has lost their bet\n");
         printf("Your current credits: %i\n", credits2);
       }
       bet2 = 0;
@@ -746,7 +746,7 @@ if (blocked2 == 0)
                 else
                 {
                  printf("\nPlayer 3\n");
-                 printf("Has lower card value than dealer that means 'player 3' has lose thier bet\n");
+                 printf("Has lower card value than dealer that means 'player 3' has lost their bet\n");
                  printf("Your current credits: %i\n", credits3);
                 }
               }
@@ -771,7 +771,7 @@ if (blocked2 == 0)
       else
       {
         printf("\nPlayer 3\n");
-        printf("Has busted that means 'player 3' has losed thier bet\n");
+        printf("Has busted that means 'player 3' has lost their bet\n");
         printf("Your current credits: %i\n", credits3);
       }
       bet3 = 0;
@@ -854,6 +854,6 @@ int main()
      return 0;
 
 
-     
+
   }
 }
